@@ -1,0 +1,15 @@
+{
+    "version": "1.0.0",
+    "summary": "Types for working with (international) phone numbers",
+    "repository": "https://github.com/circuithub/elm-phonenumber-type.git",
+    "license": "MIT",
+    "source-directories": [
+        "src"
+    ],
+    "exposed-modules": [
+        "PhoneNumber.Type"
+    ],
+    "dependencies": {
+        "elm-lang/core": "1.1.0 <= v < 2.0.0"
+    }
+}
