@@ -30,7 +30,7 @@ The following codes that not present in `ISO_3166-1_alpha-2` are also included:
 * `XR` - International premium rate service
 * `XC` - ITPCS
 
-* TODO: Possibly these codes should be moved to a new `countrycode-type` package.
+TODO: Possibly these codes should be moved to a new `countrycode-type` package.
 -}
 type CountryCodeAlpha2 = -- Officially assigned (2014)
                         AD  -- Andorra
@@ -367,6 +367,7 @@ type alias CountryCode = Int
 --data CallingCode = CallingCode CountryCode NationalDestinationCode
 
 {-| List of country calling codes or dial in code defined by ITU-T recommendations E.123 and E.164
+
 See also [List of country calling codes on wikipedia](http://en.wikipedia.org/wiki/List_of_country_calling_codes)
 -}
 callingCodes : List (PrefixDigit, List (Maybe (CountryCode, CountryCodeAlpha2)))
